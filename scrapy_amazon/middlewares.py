@@ -101,3 +101,8 @@ class ScrapyAmazonDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+class RandomAgentMiddleware:
+    
+    pass
